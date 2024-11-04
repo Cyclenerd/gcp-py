@@ -19,7 +19,7 @@ FROM python:3.13-slim
 # Configure Python to log messages immediately instead of buffering
 ENV PYTHONUNBUFFERED="True"
 # Reduce runtime by disabling pip version check
-ENV PIP_DISABLE_ PIP_VERSION_CHECK=1
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 # Reduce image size by disabling pip cache
 ENV PIP_NO_CACHE_DIR=1
 # Define application port (default: 8080)
