@@ -24,6 +24,15 @@ This guide will help you:
 * Python 3 (`python3`)
 * Docker (`docker`) or Podman (`podman`) (for containerized development)
 
+### Clone
+
+Clone this Git repository:
+
+```bash
+git clone "https://github.com/Cyclenerd/gcp-py.git"
+cd "gcp-py"
+```
+
 ### Google Cloud CLI
 
 The Google Cloud CLI lets you manage and interact with GCP services from your terminal.
