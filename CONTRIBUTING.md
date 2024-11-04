@@ -24,7 +24,7 @@ in your GitHub account.
 Clone your newly created fork of the repository to your local machine with the following command:
 
 ```bash
-git clone https://github.com/your-username/template.git
+git clone https://github.com/your-username/gcp-py.git
 ```
 
 ## Create a New Branch 🌿
@@ -58,12 +58,7 @@ This will open a new pull request to the original repository.
 
 ## Coding Style 📝
 
-Start reading the code, and you'll get the hang of it. It is optimized for readability:
-
-- Variables must be uppercase and should begin with `MY_`.
-- Functions must be lowercase.
-- Check your shell scripts with ShellCheck before submitting.
-- Please use tabs to indent.
+Start reading the code, and you'll get the hang of it. It is optimized for readability.
 
 ## Keep It Simple 👍
 
