@@ -232,3 +232,4 @@ Once you have familiarized yourself with the basics, you can expand your knowled
 * [Artifact Registry](https://cloud.google.com/artifact-registry/docs/overview)
 * [Google Cloud Platform Python Samples](https://github.com/GoogleCloudPlatform/python-docs-samples)
 * [Avocano - dropship sample website (Lit, Django, SQL)](https://github.com/GoogleCloudPlatform/avocano)
+* [Mesop - Build web apps quickly in Python](https://github.com/google/mesop)
