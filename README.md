@@ -230,3 +230,5 @@ Once you have familiarized yourself with the basics, you can expand your knowled
 * [Cloud Run identities](https://cloud.google.com/run/docs/securing/service-identity)
 * [Build and push a Docker image with Cloud Build](https://cloud.google.com/build/docs/build-push-docker-image)
 * [Artifact Registry](https://cloud.google.com/artifact-registry/docs/overview)
+* [Google Cloud Platform Python Samples](https://github.com/GoogleCloudPlatform/python-docs-samples)
+* [Avocano - dropship sample website (Lit, Django, SQL)](https://github.com/GoogleCloudPlatform/avocano)
