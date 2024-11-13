@@ -161,7 +161,14 @@ This section demonstrates building a container with your Python application.
 Build:
 
 ```bash
-podman build --tag gcp-py:test .
+podman build --tag "gcp-py:test" .
+```
+
+Note to Mac users with Apple Silicon (M1, M2, ...) CPUs:
+Cloud Run is Intel-based. Therefore, create and test the container with X86 (linux/amd64).
+
+```bash
+podman build --platform "linux/amd64" --tag "gcp-py:test" .
 ```
 
 ## Run the Container
