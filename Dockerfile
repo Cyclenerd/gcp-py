@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Use python:3.13-slim image for a minimal Python 3.13 environment
-FROM python:3.13-slim
+FROM docker.io/python:3.13-slim
 
 # Environment variables
 # Configure Python to log messages immediately instead of buffering
@@ -31,9 +31,6 @@ ENV GUNICORN_CMD_ARGS="--bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 0"
 
 # Expose port for container access
 EXPOSE $PORT
-
-# Disable health check (implement a custom health check if needed)
-HEALTHCHECK NONE
 
 # Working directory
 # Set the working directory inside the container to /app
