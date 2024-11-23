@@ -192,7 +192,7 @@ Here's the command with explanations:
 
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/application_default_credentials.json"
-export "GOOGLE_CLOUD_PROJECT=[YOUR-GOOGLE-CLOUD-PROJECT-ID]"
+export GOOGLE_CLOUD_PROJECT="[YOUR-GOOGLE-CLOUD-PROJECT-ID]"
 podman run \
   -v "$GOOGLE_APPLICATION_CREDENTIALS:/tmp/adc.json:ro" \
   -e "GOOGLE_APPLICATION_CREDENTIALS=/tmp/adc.json" \
